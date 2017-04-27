@@ -25,7 +25,7 @@ To mutualise some part of the template (header, footer, snippets), we are levera
 
 As a convention all headers, footers and snippets name start with a `_` and will not be directly processed by the script. 
 
-##Install and Run 
+## Install and Run 
 
 To install [Mailjet PHP wrapper](https://github.com/mailjet/mailjet-apiv3-php) : 
 
