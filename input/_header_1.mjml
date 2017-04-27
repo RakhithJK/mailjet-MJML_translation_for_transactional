@@ -1,0 +1,7 @@
+<mj-section background-color="#ffffff" background-url="http://z2mx.mjt.lu/img/z2mx/b/1nu/jsu.png" background-size="cover" padding-bottom="20" padding-top="20">
+        <mj-column vertical-align="top" width="100%">
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/1nu/jsz.png" alt="" align="left" border="none" width="99" vertical-align="top" padding-left="25" padding-right="25" padding-bottom="22" padding-top="22">
+
+          </mj-image>
+        </mj-column>
+</mj-section>

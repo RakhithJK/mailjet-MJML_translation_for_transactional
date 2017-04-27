@@ -1,0 +1,35 @@
+<mj-raw>
+        {% for item in var:order.items %}
+      </mj-raw>
+        <mj-section mj-class="section-white" vertical-align="middle">
+          <!-- Image -->
+          <mj-column vertical-align="middle" width="30%">
+            <mj-image
+              padding="25px"
+              align="left"
+              mj-class="img-bordered"
+              src="{{ item.image_URL }}"
+              alt="{{ item.title }}"
+              width="150px"
+            />
+          </mj-column>
+          <!-- Data -->
+          <mj-group vertical-align="middle" width="70%">
+            <mj-column>
+              <mj-text align="left">
+                <strong>{{ item.title }}</strong><br />
+                [[size]]: {{ item.size }}<br />
+                [[quantity]]: {{ item.quantity }}
+              </mj-text>
+            </mj-column>
+            <!-- Price -->
+            <mj-column>
+              <mj-text align="right">
+                <strong>[[price]]: {{ item.price.currency }}{{ item.price.amount }}</strong>
+              </mj-text>
+            </mj-column>
+          </mj-group>
+        </mj-section>
+      <mj-raw>
+        {% endfor %}
+      </mj-raw>

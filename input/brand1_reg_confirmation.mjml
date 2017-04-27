@@ -1,0 +1,9 @@
+<mjml>
+  <mj-body>
+    <mj-container background-color="#dcefff" >
+    <mj-include path="./_header_1.mjml" />
+    <mj-include path="./_snippet_receipt.mjml" />
+    <mj-include path="./_footer_1.mjml" />
+    </mj-container>
+  </mj-body>
+</mjml>  

@@ -1,0 +1,5 @@
+<mj-section background-color="#ffffff" padding-bottom="20" padding-top="10">
+        <mj-column>
+          <mj-image width="162" src="http://i.imgur.com/6wwIX3R.png"></mj-image>
+        </mj-column>
+</mj-section>
